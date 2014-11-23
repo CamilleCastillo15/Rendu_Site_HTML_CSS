@@ -1,0 +1,53 @@
+body {
+	font-family:Calibri ;
+	font-size:14px;	
+}
+
+
+h1, h2, h3, ul, li 
+{
+margin:0;
+padding:0;
+border:0px;
+font-weight:normal;
+font-style : normal;
+text-align:left;
+list-style:inside;
+}
+
+figure, nav, section, header, footer, iframe 
+{
+margin:0;
+padding:0;
+border:0px;
+font-weight:normal;
+font-style : normal;
+text-align:left;
+list-style:inside;
+}
+
+#wrapper
+{
+	/* width:1200px; */
+	margin:0px auto;
+	/*border:solid 1px;*/
+}
+
+/* #nav{
+	border:2px solid #ffcc00;
+}*/
+
+#nav ul li 
+{
+	float:left;
+}
+
+.clearfix:before,
+.clearfix:after{
+	display:table;
+	content:" ";
+}
+
+.clearfix:after{
+	clear:both;
+}

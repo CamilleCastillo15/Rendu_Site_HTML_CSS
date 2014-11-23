@@ -1,0 +1,185 @@
+.img-responsive{
+	width:100%;
+	height:auto;
+}
+
+/* .footer-bottom-responsive{
+	width:100%;
+	height:auto;
+} */
+
+body {
+	background-color: blue;
+	-webkit-animation: all 5s; /* Chrome, Safari, Opera */
+    animation: anim 5s;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes anim {
+    from {background: red;}
+    to {background: yellow;}
+}
+
+/* Standard syntax */
+@keyframes anim {
+    from {background: red;}
+    to {background: yellow;}
+}
+
+#wrapper{
+	width:1200px;
+	background-color: white;
+}
+
+#nav ul li {
+	margin:12px;
+	list-style:none;
+}
+
+#nav a:link {
+	color:black;
+}
+
+#nav span{
+	color:grey;
+}
+
+#nav a:visited {
+	color:black;
+}
+
+#img_logo {
+	width:76px;
+}
+
+#img_logo:hover {
+	width:300px;
+}
+
+#img_logo {
+    /* For Safari 3.1 to 6.0 */
+    -webkit-transition-property: width;
+    -webkit-transition-duration: 1s;
+    -webkit-transition-timing-function: linear;
+    -webkit-transition-delay: 1s;
+    /* Standard syntax */
+    transition-property: width;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+}
+
+.menu_colonne 
+{
+	border:solid 1px;
+	width:398px;
+	border-radius: 5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+
+.boutons {
+	background-color:blue;
+	/* width:200px; */
+	height:75px;
+	margin-top:50px;
+	margin-left:17%;
+	color:white;
+	font-size:18px;
+}
+
+.boutons:first-child {
+	margin-top:0px;
+}	
+
+.boutons a:link {
+	color:white;
+}
+
+.boutons a:visited {
+	color:white;
+}
+
+
+#footer {
+	 width:1200px; 
+	 margin-top: 110px;
+}
+ 
+/* Firefox 3.0+ */
+#footer,  x:-moz-any-link, x:default  { margin-top: 436px;  }
+
+@-moz-document url-prefix() {       
+	.submit_btn {
+		margin-top: 436px;
+	}
+}
+
+	#useful_links 
+	{
+		float:left;
+		/* width:33%; 
+		 height: 150px; */
+	}
+
+	#contact 
+	{
+		/* margin-left:55px;  */
+		float:left;
+		/* width:33%; 
+		 height: 150px; */
+	}
+
+	#picture_stream {
+		/* margin-left:839px; */
+		float:left;
+		/* width:33%; 
+		 height: 150px; */
+	}
+
+#footer-bottom {
+	background-color:black;
+	color:white;
+	text-align:left;
+	margin-top:50px;
+	width:1200px;
+}
+	
+	 #content 
+	{
+		margin-top:50px;
+	    width:1200px; 
+	} 
+	
+	#upcoming_events 
+	{
+		float:left;
+		 /* width:33%; 
+		 height: 333px; */
+	}
+
+	#news 
+	{
+		/* margin-left:55px; */
+		float:left;
+		 /* width:33%; 
+		 height: 333px; */
+
+	}
+	
+	#boutons
+	{
+		/*  margin-left:839px; */
+		float:left;
+		/* width:33%; 
+		 height: 333px; */
+
+	}
+
+.img_font_awesome  {
+	display:inline;
+}
+
+iframe {
+	margin-left: 260px;
+}
